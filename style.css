@@ -1,9 +1,24 @@
 body {
-  background-color: white;
+  background-image: url("kaboompics_A beautiful blooming red rose in Madrid Botanic Garden.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .avatar {
   border-radius: 50%;
+  display: block;
+  margin: 80px;
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
+
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -29,7 +44,47 @@ body {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #A2051B;
 }
 
-.navbuttons
+.navbuttons #id {
+  background-color: red
+}
+
+#contact-info {
+  padding-right: 350px;
+  padding-left: 350px
+}
+
+.jumbotron {
+  border-radius: 6px;
+  margin: auto;
+}
+
+#contact-jumbotron {
+  height: 120px;
+  width: 400px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+#index-jumbotron {
+  height: 300px;
+  width: 600px;
+  margin-top: 100px;
+  margin-right: 150px;
+}
+
+.blurb {
+  background-color: #fff;
+  text-align: justify;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.blurb>h3 {
+  padding-top: 10px;
+}

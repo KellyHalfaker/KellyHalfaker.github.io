@@ -11,6 +11,12 @@ img.center {
   margin-right: auto;
 }
 
+.jumbotron p {
+  font-weight: 500;
+  font-family: "Lobster", Arial, cursive;
+  font-size: 28px;
+}
+
 .avatar {
   border-radius: 50%;
   display: block;
@@ -87,4 +93,18 @@ img.center {
 
 .blurb>h3 {
   padding-top: 10px;
+}
+
+.blurb>p {
+  font-size: 15px
+}
+
+.index-title {
+  font-family: "Righteous", Arial, cursive;
+}
+
+.contact-title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lobster", Arial, cursive;
 }
